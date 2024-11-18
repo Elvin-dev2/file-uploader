@@ -31,7 +31,7 @@ function showWelcomePopup() {
 
   const popupMessage = document.createElement("p");
   popupMessage.innerHTML =
-    "With Cloud CDN, we deliver the best speed, security, and performance for your website. Enjoy faster, safer, and more reliable content wherever your visitors are.<br><br>Explore our features and if you have any questions, our support team is ready to help you anytime.<br><br>Thank you for choosing Cloud CDN!";
+    "Dengan Cloud CDN, kami memberikan kecepatan, keamanan, dan performa terbaik untuk situs web Anda. Nikmati konten yang lebih cepat, lebih aman, dan lebih andal di mana pun pengunjung Anda berada.<br><br>Jelajahi fitur-fitur kami dan jika Anda memiliki pertanyaan, tim dukungan kami siap membantu Anda kapan saja.<br><br>Thank you for choosing Cloud CDN!";
 
   const checkboxContainer = document.createElement("div");
   checkboxContainer.className = "checkbox-container";
