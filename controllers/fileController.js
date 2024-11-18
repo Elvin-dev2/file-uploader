@@ -2,9 +2,9 @@ const fs = require("fs");
 const path = require("path");
 const bucket = require("../config/firebase.js");
 const { formatDate } = require("../utils/helpers.js");
-const PublicUrl = process.env.PUBLIC_URL || "http://localhost:3000";
+const PublicUrl = process.env.PUBLIC_URL || "https://files-uploader-flax.vercel.app/";
 const uploadDirectory = path.join(__dirname, "..", "uploads");
-const author = "Romi Muharom";
+const author = "Alif Ixr3";
 const status = "success";
 
 if (!bucket) {
